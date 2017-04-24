@@ -73,9 +73,9 @@ window.FrontendBookApi = window.FrontendBookApi || {};
                 var currColumn = 1;
 				//AM/PM Time Change Mod 1 Craig Tucker start
 				if (time_format == '24HR') {
-                $('#available-hours').html('<div style="width:50px; float:left;"></div>');
+					$('#available-hours').html('<div style="width:50px; float:left;"></div>');
 				}else{
-				$('#available-hours').html('<div style="width:80px; float:left;"></div>');
+					$('#available-hours').html('<div style="width:80px; float:left;"></div>');
 				}
 				//AM/PM Time Change Mod 1 Craig Tucker end
 
